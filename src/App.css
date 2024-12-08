@@ -1,0 +1,55 @@
+.padre{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.tamaño-imagen{
+    width: 90%;
+    height: 600px;
+    margin-top: 50px;
+}
+.estilo-profile{
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Cajatexto{
+    background-color: #cccccc40;
+    border-color: slategray;
+    border-radius: 100px;
+    width: 300px;
+    padding: 15px;
+    border-width: 0px;
+    margin-bottom: 15px;
+}
+.Cajatexto:focus{
+    outline: 1px solid cornflowerblue;
+    box-shadow: 0 0 10px cornflowerblue;
+}
+.Cajaboton{
+    background-color: #4a4a8541;
+    border-color: slategray;
+    border-radius: 50px;
+    width: 150px;
+    padding: 15px;
+    border-width: 0px;
+    margin-bottom: 15px;
+}
+.texto{
+
+    font-size: 20px;
+    color: slategray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+}
+.btnSwicth{
+   background-color: darkblue;
+   border-radius: 30px;
+   padding: 8px;
+   border-width: 0px;
+   color: white;
+   font-size: 16px;
+}
