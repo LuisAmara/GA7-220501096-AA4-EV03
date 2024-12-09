@@ -53,3 +53,30 @@
    color: white;
    font-size: 16px;
 }
+
+.container {
+    margin-top: 20px;
+  }
+  
+  .table {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .table th, .table td {
+    text-align: center;
+  }
+  
+  .btn {
+    margin-top: 20px;
+  }
+
+.image{
+
+    display: grid;             /* Usamos Grid */
+    grid-template-columns: repeat(3, 1fr);  /* Crea 3 columnas de igual tamaño */
+    gap: 10px;                 /* Espacio entre las imágenes */
+    align-items: center;       /* Centra las imágenes verticalmente */
+
+}
+
