@@ -41,7 +41,6 @@ const Login = ({ setUsuario }) => {
   return (
     <div className='Container'>
       <div className="row">
-        {/* Columna más pequeña (formulario) */}
         <div className="col-md-4">
           <div className="padre">
             <div className="card card-body shadow-lg">
@@ -50,7 +49,6 @@ const Login = ({ setUsuario }) => {
                 <input type="text" placeholder="Ingresar Correo" className="Cajatexto" id="email" />
                 <input type="password" placeholder="Ingresar Contraseña" className="Cajatexto" id="password" />
 
-                {/* Selección del tipo de usuario */}
                 <div className="tipo-usuario">
                   <label>
                     <input
@@ -85,8 +83,6 @@ const Login = ({ setUsuario }) => {
             </div>
           </div>
         </div>
-
-        {/* Columna más grande (imagen de fondo) */}
         <div className="col-md-8">
           <img src={ImageLogin} alt="" className="tamaño-imagen" />
         </div>

@@ -76,7 +76,7 @@
     display: grid;             /* Usamos Grid */
     grid-template-columns: repeat(3, 1fr);  /* Crea 3 columnas de igual tamaño */
     gap: 10px;                 /* Espacio entre las imágenes */
-    align-items: center;       /* Centra las imágenes verticalmente */
+    align-items: center;       
 
 }
 

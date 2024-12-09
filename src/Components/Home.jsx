@@ -33,7 +33,6 @@ const Home = ({ correoUsuario, isAdmin }) => {
         <div>
           <h3>Productos disponibles</h3>
           <div className="productos">
-            {/* Aquí puedes mostrar productos aleatorios o cualquier contenido para usuarios normales */}
             <div className="image">
             <img src={ImagePan} alt="" />
             <p>Panaderia</p>
